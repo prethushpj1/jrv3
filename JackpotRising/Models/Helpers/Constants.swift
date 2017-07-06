@@ -27,3 +27,7 @@ enum SegueId: String{
     case register   = "JRRegisterSegue"
     case login      = "JRLoginSegue"
 }
+
+enum StoryboardName: String{
+    case main       = "JRMain"
+}

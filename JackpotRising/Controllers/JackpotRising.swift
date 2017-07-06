@@ -20,10 +20,12 @@ public class JackpotRising: NSObject {
     internal var sdkRootViewController: JRContainerViewController{
         get{
             let storyboard = UIStoryboard (
-                name: "JRMain",
+                name: StoryboardName.main.rawValue,
                 bundle: Bundle(for: JRContainerViewController.self))
             
-            return storyboard.instantiateInitialViewController()
+            let sdkRootController = storyboard.instantiateInitialViewController() as! JRContainerViewController
+            sdkRootController.modalPresentationStyle = .overCurrentContext
+            return sdkRootController
         }
     }
     
@@ -38,6 +40,6 @@ public class JackpotRising: NSObject {
 
 extension JackpotRising{
     public func showSDK(){
-        
+        self.appViewController.present(self.sdkRootViewController, animated: true, completion: nil)
     }
 }
