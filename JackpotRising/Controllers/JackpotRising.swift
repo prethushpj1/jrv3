@@ -10,5 +10,5 @@ import UIKit
 
 public class JackpotRising: NSObject {
     
-    
+    //comment
 }
