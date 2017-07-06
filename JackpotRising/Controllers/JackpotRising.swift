@@ -11,5 +11,5 @@ import JackpotRising.Private
 
 public class JackpotRising: NSObject {
     
-    
+    //comment
 }
