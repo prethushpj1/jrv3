@@ -19,6 +19,13 @@
 		50C8B5EA1F0E327200A6F4E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8B5E91F0E327200A6F4E4 /* Constants.swift */; };
 		50C8B5ED1F0E330D00A6F4E4 /* NSString+JackpotRising.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C8B5EB1F0E330D00A6F4E4 /* NSString+JackpotRising.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50C8B5EE1F0E330D00A6F4E4 /* NSString+JackpotRising.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C8B5EC1F0E330D00A6F4E4 /* NSString+JackpotRising.m */; };
+		C297B60B1F0E525C009E9945 /* JRBottomBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B6071F0E525C009E9945 /* JRBottomBarViewController.swift */; };
+		C297B60C1F0E525C009E9945 /* JRContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B6081F0E525C009E9945 /* JRContainerViewController.swift */; };
+		C297B60D1F0E525C009E9945 /* JRContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B6091F0E525C009E9945 /* JRContentViewController.swift */; };
+		C297B60E1F0E525C009E9945 /* JRTopBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B60A1F0E525C009E9945 /* JRTopBarViewController.swift */; };
+		C297B6101F0E52BC009E9945 /* JRRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B60F1F0E52BB009E9945 /* JRRegisterViewController.swift */; };
+		C297B6121F0E52C8009E9945 /* JRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B6111F0E52C8009E9945 /* JRLoginViewController.swift */; };
+		C297B6141F0E530C009E9945 /* JRSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B6131F0E530C009E9945 /* JRSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,13 @@
 		50C8B5E91F0E327200A6F4E4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50C8B5EB1F0E330D00A6F4E4 /* NSString+JackpotRising.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JackpotRising.h"; sourceTree = "<group>"; };
 		50C8B5EC1F0E330D00A6F4E4 /* NSString+JackpotRising.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JackpotRising.m"; sourceTree = "<group>"; };
+		C297B6071F0E525C009E9945 /* JRBottomBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRBottomBarViewController.swift; sourceTree = "<group>"; };
+		C297B6081F0E525C009E9945 /* JRContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRContainerViewController.swift; sourceTree = "<group>"; };
+		C297B6091F0E525C009E9945 /* JRContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRContentViewController.swift; sourceTree = "<group>"; };
+		C297B60A1F0E525C009E9945 /* JRTopBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTopBarViewController.swift; sourceTree = "<group>"; };
+		C297B60F1F0E52BB009E9945 /* JRRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRRegisterViewController.swift; sourceTree = "<group>"; };
+		C297B6111F0E52C8009E9945 /* JRLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRLoginViewController.swift; sourceTree = "<group>"; };
+		C297B6131F0E530C009E9945 /* JRSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +109,14 @@
 		50C8B5DC1F0E13F400A6F4E4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C297B6071F0E525C009E9945 /* JRBottomBarViewController.swift */,
+				C297B6081F0E525C009E9945 /* JRContainerViewController.swift */,
+				C297B6091F0E525C009E9945 /* JRContentViewController.swift */,
+				C297B60F1F0E52BB009E9945 /* JRRegisterViewController.swift */,
+				C297B6111F0E52C8009E9945 /* JRLoginViewController.swift */,
+				C297B60A1F0E525C009E9945 /* JRTopBarViewController.swift */,
 				50C8B5E11F0E1E9000A6F4E4 /* JackpotRising.swift */,
+				C297B6131F0E530C009E9945 /* JRSegue.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -215,10 +236,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C297B6121F0E52C8009E9945 /* JRLoginViewController.swift in Sources */,
 				50C8B5E21F0E1E9000A6F4E4 /* JackpotRising.swift in Sources */,
 				50C8B5E81F0E304200A6F4E4 /* Extensions.swift in Sources */,
+				C297B60E1F0E525C009E9945 /* JRTopBarViewController.swift in Sources */,
+				C297B60C1F0E525C009E9945 /* JRContainerViewController.swift in Sources */,
 				50C8B5EE1F0E330D00A6F4E4 /* NSString+JackpotRising.m in Sources */,
+				C297B60D1F0E525C009E9945 /* JRContentViewController.swift in Sources */,
+				C297B6141F0E530C009E9945 /* JRSegue.swift in Sources */,
+				C297B6101F0E52BC009E9945 /* JRRegisterViewController.swift in Sources */,
 				50C8B5EA1F0E327200A6F4E4 /* Constants.swift in Sources */,
+				C297B60B1F0E525C009E9945 /* JRBottomBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
