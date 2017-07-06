@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5022DD261F0E107500D8483C /* JackpotRising.h in Headers */ = {isa = PBXBuildFile; fileRef = 5022DD241F0E107500D8483C /* JackpotRising.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A204E81F0E4DBD00187DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A204E31F0E4DBD00187DCA /* Assets.xcassets */; };
+		50A204E91F0E4DBD00187DCA /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50A204E41F0E4DBD00187DCA /* OpenSans-Bold.ttf */; };
+		50A204EA1F0E4DBD00187DCA /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50A204E51F0E4DBD00187DCA /* OpenSans-ExtraBold.ttf */; };
+		50A204EB1F0E4DBD00187DCA /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50A204E61F0E4DBD00187DCA /* OpenSans-Light.ttf */; };
+		50A204EC1F0E4DBD00187DCA /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50A204E71F0E4DBD00187DCA /* OpenSans-Regular.ttf */; };
 		50C8B5E01F0E143C00A6F4E4 /* JRMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C8B5DF1F0E143C00A6F4E4 /* JRMain.storyboard */; };
 		50C8B5E21F0E1E9000A6F4E4 /* JackpotRising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8B5E11F0E1E9000A6F4E4 /* JackpotRising.swift */; };
 		50C8B5E81F0E304200A6F4E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8B5E71F0E304200A6F4E4 /* Extensions.swift */; };
 		50C8B5EA1F0E327200A6F4E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8B5E91F0E327200A6F4E4 /* Constants.swift */; };
-		50C8B5ED1F0E330D00A6F4E4 /* NSString+JackpotRising.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C8B5EB1F0E330D00A6F4E4 /* NSString+JackpotRising.h */; };
+		50C8B5ED1F0E330D00A6F4E4 /* NSString+JackpotRising.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C8B5EB1F0E330D00A6F4E4 /* NSString+JackpotRising.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50C8B5EE1F0E330D00A6F4E4 /* NSString+JackpotRising.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C8B5EC1F0E330D00A6F4E4 /* NSString+JackpotRising.m */; };
 /* End PBXBuildFile section */
 
@@ -20,13 +25,18 @@
 		5022DD211F0E107500D8483C /* JackpotRising.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JackpotRising.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5022DD241F0E107500D8483C /* JackpotRising.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JackpotRising.h; sourceTree = "<group>"; };
 		5022DD251F0E107500D8483C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A204E11F0E4B9F00187DCA /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		50A204E31F0E4DBD00187DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A204E41F0E4DBD00187DCA /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		50A204E51F0E4DBD00187DCA /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		50A204E61F0E4DBD00187DCA /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		50A204E71F0E4DBD00187DCA /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		50C8B5DF1F0E143C00A6F4E4 /* JRMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRMain.storyboard; sourceTree = "<group>"; };
 		50C8B5E11F0E1E9000A6F4E4 /* JackpotRising.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JackpotRising.swift; sourceTree = "<group>"; };
 		50C8B5E71F0E304200A6F4E4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		50C8B5E91F0E327200A6F4E4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50C8B5EB1F0E330D00A6F4E4 /* NSString+JackpotRising.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JackpotRising.h"; sourceTree = "<group>"; };
 		50C8B5EC1F0E330D00A6F4E4 /* NSString+JackpotRising.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JackpotRising.m"; sourceTree = "<group>"; };
-		50C8B5F01F0E33C200A6F4E4 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +69,27 @@
 		5022DD231F0E107500D8483C /* JackpotRising */ = {
 			isa = PBXGroup;
 			children = (
-				50C8B5EF1F0E33C200A6F4E4 /* Module */,
+				50A204E21F0E4DBD00187DCA /* Resources */,
 				50C8B5DD1F0E13F400A6F4E4 /* Models */,
 				50C8B5DE1F0E13F400A6F4E4 /* Views */,
 				50C8B5DC1F0E13F400A6F4E4 /* Controllers */,
 				5022DD241F0E107500D8483C /* JackpotRising.h */,
 				5022DD251F0E107500D8483C /* Info.plist */,
+				50A204E11F0E4B9F00187DCA /* module.modulemap */,
 			);
 			path = JackpotRising;
+			sourceTree = "<group>";
+		};
+		50A204E21F0E4DBD00187DCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50A204E31F0E4DBD00187DCA /* Assets.xcassets */,
+				50A204E41F0E4DBD00187DCA /* OpenSans-Bold.ttf */,
+				50A204E51F0E4DBD00187DCA /* OpenSans-ExtraBold.ttf */,
+				50A204E61F0E4DBD00187DCA /* OpenSans-Light.ttf */,
+				50A204E71F0E4DBD00187DCA /* OpenSans-Regular.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		50C8B5DC1F0E13F400A6F4E4 /* Controllers */ = {
@@ -102,14 +125,6 @@
 				50C8B5E91F0E327200A6F4E4 /* Constants.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		50C8B5EF1F0E33C200A6F4E4 /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				50C8B5F01F0E33C200A6F4E4 /* module.modulemap */,
-			);
-			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +199,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A204E81F0E4DBD00187DCA /* Assets.xcassets in Resources */,
 				50C8B5E01F0E143C00A6F4E4 /* JRMain.storyboard in Resources */,
+				50A204E91F0E4DBD00187DCA /* OpenSans-Bold.ttf in Resources */,
+				50A204EB1F0E4DBD00187DCA /* OpenSans-Light.ttf in Resources */,
+				50A204EC1F0E4DBD00187DCA /* OpenSans-Regular.ttf in Resources */,
+				50A204EA1F0E4DBD00187DCA /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +339,7 @@
 				INFOPLIST_FILE = JackpotRising/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/Module/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/JackpotRising/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackpotrising.JackpotRising;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -342,7 +362,7 @@
 				INFOPLIST_FILE = JackpotRising/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/Module/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/JackpotRising/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackpotrising.JackpotRising;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

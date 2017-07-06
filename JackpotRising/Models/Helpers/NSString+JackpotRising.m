@@ -26,7 +26,7 @@
                                   length:sizeof(cHMAC)];
 }
 
-- (NSString*) MD5HashString {
+- (NSString*)mD5Hash {
     const char* pointer = [self UTF8String];
     unsigned char md5Buffer[CC_MD5_DIGEST_LENGTH];
     
