@@ -1,5 +1,5 @@
 //
-//  JRContentViewController.swift
+//  JRRegisterViewController.swift
 //  JackpotRising
 //
 //  Created by tibin on 06/07/17.
@@ -8,14 +8,12 @@
 
 import UIKit
 
-class JRContentViewController: UIViewController {
+class JRRegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        self.performSegue(withIdentifier: SegueId.register.rawValue, sender: self)
     }
 
     override func didReceiveMemoryWarning() {

@@ -22,3 +22,8 @@ enum Directions: String {
     case Top
     case Bottom
 }
+
+enum SegueId: String{
+    case register   = "JRRegisterSegue"
+    case login      = "JRLoginSegue"
+}
