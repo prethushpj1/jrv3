@@ -1,0 +1,15 @@
+framework module JackpotRising {
+  umbrella header "JackpotRising.h"
+
+  export *
+  module * { export * }
+  
+  explicit module Private {
+      header "ZoozSDKWrapper.h"
+      header "AppDataTracker.h"
+      header "NSString+JackpotRising.h"
+      header "Luhn.h"
+      header "SynchronousRequest.h"
+  }
+}
+
