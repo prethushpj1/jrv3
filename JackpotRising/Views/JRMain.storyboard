@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wly-WC-BcC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wly-WC-BcC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Container View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="Um6-1c-jKY">
             <objects>
-                <viewController storyboardIdentifier="JRContainerViewController" id="Wly-WC-BcC" customClass="JRContainerViewController" customModule="JackpotRising" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="JRContainerViewController" id="Wly-WC-BcC" customClass="JRRootViewController" customModule="JackpotRising" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="742-LL-ze9"/>
                         <viewControllerLayoutGuide type="bottom" id="JnZ-Gi-1dr"/>
@@ -94,18 +94,26 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gSm-PQ-kXY">
                                 <rect key="frame" x="0.0" y="0.0" width="335" height="100"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4Z-aS-uBl">
-                                <rect key="frame" x="306" y="4" width="13" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="CloseButton"/>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x1F-bU-puv">
                                 <rect key="frame" x="21" y="15" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4Z-aS-uBl">
+                                <rect key="frame" x="298" y="3" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="laz-Yw-mEg"/>
+                                    <constraint firstAttribute="height" constant="30" id="tTi-TP-3dt"/>
+                                </constraints>
+                                <state key="normal" image="CloseButton"/>
+                                <connections>
+                                    <action selector="closeButtonAction:" destination="76z-kM-7pM" eventType="touchUpInside" id="BA9-03-JD6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.61483892979999999" green="0.64549975520000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="q4Z-aS-uBl" secondAttribute="trailing" constant="3" id="8sp-ph-vim"/>
+                            <constraint firstItem="q4Z-aS-uBl" firstAttribute="top" secondItem="LhQ-GO-f4j" secondAttribute="bottom" constant="3" id="Z2I-3W-3pP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gSm-PQ-kXY" secondAttribute="trailing" constant="-16" id="Zu8-tf-pvT"/>
                             <constraint firstItem="gSm-PQ-kXY" firstAttribute="leading" secondItem="iE6-2k-u5U" secondAttribute="leadingMargin" constant="-16" id="lYz-kl-oFS"/>
                             <constraint firstItem="zlK-Nu-hOx" firstAttribute="top" secondItem="gSm-PQ-kXY" secondAttribute="bottom" id="rcK-BB-cxF"/>

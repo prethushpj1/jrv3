@@ -17,13 +17,13 @@ public class JackpotRising: NSObject {
             return UIApplication.shared.keyWindow!.rootViewController!
         }
     }
-    internal var sdkRootViewController: JRContainerViewController{
+    internal var sdkRootViewController: JRRootViewController{
         get{
             let storyboard = UIStoryboard (
                 name: StoryboardName.main.rawValue,
-                bundle: Bundle(for: JRContainerViewController.self))
+                bundle: Bundle(for: JRRootViewController.self))
             
-            let sdkRootController = storyboard.instantiateInitialViewController() as! JRContainerViewController
+            let sdkRootController = storyboard.instantiateInitialViewController() as! JRRootViewController
             sdkRootController.modalPresentationStyle = .overCurrentContext
             return sdkRootController
         }

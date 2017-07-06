@@ -31,3 +31,16 @@ enum SegueId: String{
 enum StoryboardName: String{
     case main       = "JRMain"
 }
+
+enum NotificationNames{
+    case sdkClose
+}
+
+extension NotificationNames{
+    var name: Notification.Name{
+        switch self {
+        case .sdkClose:
+            return Notification.Name(rawValue: "JRSDKClose")
+        }
+    }
+}
