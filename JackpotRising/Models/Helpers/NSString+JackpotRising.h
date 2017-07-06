@@ -11,7 +11,7 @@
 @interface NSString (JackpotRising)
 
 - (NSData*)SHA1DigestWithKey:(NSString*)key;
-- (NSString*) MD5HashString;
+- (NSString*)mD5Hash;
 
 @end
 

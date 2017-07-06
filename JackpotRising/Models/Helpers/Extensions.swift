@@ -194,7 +194,7 @@ internal extension String{
     }
     
     func getMD5Hash() -> String {
-        return NSString(string: self).md5Hash()
+        return NSString(string: self).mD5Hash()
         
     }
     
@@ -219,7 +219,7 @@ internal extension String{
             scanner.scanUpTo("&", into: &value)
             scanner.scanString("&", into: nil)
         
-            if let key = key as? String, let value = value as? String {
+            if let key = key as String?, let value = value as String? {
                 parameters.updateValue(value, forKey: key)
             }
         }
