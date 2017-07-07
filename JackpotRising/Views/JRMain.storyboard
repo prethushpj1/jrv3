@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wly-WC-BcC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wly-WC-BcC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -174,14 +174,86 @@
                         <viewControllerLayoutGuide type="bottom" id="9Pu-S8-kUA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="peT-8I-CaC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="335" height="427"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6FB-MD-aNx">
+                                <rect key="frame" x="0.0" y="0.0" width="335" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdV-qS-ET2">
+                                        <rect key="frame" x="0.0" y="0.0" width="167.5" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.26153008900000002" blue="0.2674362985" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Get Started">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URY-co-QqM">
+                                        <rect key="frame" x="167.5" y="0.0" width="167.5" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.26153008900000002" blue="0.2674362985" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jwO-VI-VS7">
+                                <rect key="frame" x="0.0" y="30" width="335" height="117"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ipJ-DO-TDv">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="101.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="PLAY FOR REAL MONEY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq3-XE-AxK">
+                                                <rect key="frame" x="74" y="0.0" width="187" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Use your skills and compete against other players for real money jackpots." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmj-LP-Ju5">
+                                                <rect key="frame" x="5.5" y="25.5" width="324.5" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="AAh-as-o3o">
+                                                <rect key="frame" x="87.5" y="71.5" width="160" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogj-5I-N9k">
+                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="30"/>
+                                                        <state key="normal" title="Video Intro"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acr-Pi-xhB">
+                                                        <rect key="frame" x="95" y="0.0" width="65" height="30"/>
+                                                        <state key="normal" title="More Info"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.64441849439999999" green="0.74012824570000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ipJ-DO-TDv" secondAttribute="trailing" id="o0p-ce-wWN"/>
+                                    <constraint firstItem="ipJ-DO-TDv" firstAttribute="leading" secondItem="jwO-VI-VS7" secondAttribute="leading" id="umn-fp-m98"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="0.71372549019999998" green="0.85098039219999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6FB-MD-aNx" firstAttribute="top" secondItem="NaC-JE-FZI" secondAttribute="bottom" id="C8A-19-dPH"/>
+                            <constraint firstItem="jwO-VI-VS7" firstAttribute="leading" secondItem="peT-8I-CaC" secondAttribute="leading" id="GO8-Fm-kAS"/>
+                            <constraint firstAttribute="trailing" secondItem="6FB-MD-aNx" secondAttribute="trailing" id="NuU-Ht-5cl"/>
+                            <constraint firstAttribute="trailing" secondItem="jwO-VI-VS7" secondAttribute="trailing" id="Pe8-A1-9Or"/>
+                            <constraint firstItem="6FB-MD-aNx" firstAttribute="leading" secondItem="peT-8I-CaC" secondAttribute="leading" id="l5L-yA-D0H"/>
+                            <constraint firstItem="jwO-VI-VS7" firstAttribute="top" secondItem="6FB-MD-aNx" secondAttribute="bottom" id="xCa-hL-I37"/>
+                        </constraints>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="335" height="427"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="335" height="427"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mry-Zg-ABh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-361" y="1583"/>
+            <point key="canvasLocation" x="-362.39999999999998" y="1582.7586206896553"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="8DI-nW-ufg">
